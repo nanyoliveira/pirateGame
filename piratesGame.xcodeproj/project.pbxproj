@@ -15,6 +15,8 @@
 		6981ADDE1ADDE3CE0042949B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6981ADDD1ADDE3CE0042949B /* Images.xcassets */; };
 		6981ADE11ADDE3CE0042949B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6981ADDF1ADDE3CE0042949B /* LaunchScreen.xib */; };
 		6981ADED1ADDE3CE0042949B /* piratesGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6981ADEC1ADDE3CE0042949B /* piratesGameTests.m */; };
+		6981ADF91ADE8AA20042949B /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6981ADF81ADE8AA20042949B /* Tile.m */; };
+		6981ADFC1ADE8D320042949B /* AOFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6981ADFB1ADE8D320042949B /* AOFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		6981ADE61ADDE3CE0042949B /* piratesGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piratesGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6981ADEB1ADDE3CE0042949B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6981ADEC1ADDE3CE0042949B /* piratesGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = piratesGameTests.m; sourceTree = "<group>"; };
+		6981ADF71ADE8AA20042949B /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		6981ADF81ADE8AA20042949B /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		6981ADFA1ADE8D320042949B /* AOFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOFactory.h; sourceTree = "<group>"; };
+		6981ADFB1ADE8D320042949B /* AOFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		6981ADCC1ADDE3CE0042949B /* piratesGame */ = {
 			isa = PBXGroup;
 			children = (
+				6981ADF61ADE87730042949B /* model */,
 				6981ADD11ADDE3CE0042949B /* AppDelegate.h */,
 				6981ADD21ADDE3CE0042949B /* AppDelegate.m */,
 				6981ADD71ADDE3CE0042949B /* ViewController.h */,
@@ -120,6 +127,25 @@
 				6981ADEB1ADDE3CE0042949B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6981ADF61ADE87730042949B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6981ADFD1ADE8D400042949B /* factory */,
+				6981ADF71ADE8AA20042949B /* Tile.h */,
+				6981ADF81ADE8AA20042949B /* Tile.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		6981ADFD1ADE8D400042949B /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				6981ADFA1ADE8D320042949B /* AOFactory.h */,
+				6981ADFB1ADE8D320042949B /* AOFactory.m */,
+			);
+			name = factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,8 +248,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6981ADFC1ADE8D320042949B /* AOFactory.m in Sources */,
 				6981ADD31ADDE3CE0042949B /* AppDelegate.m in Sources */,
 				6981ADD61ADDE3CE0042949B /* piratesGame.xcdatamodeld in Sources */,
+				6981ADF91ADE8AA20042949B /* Tile.m in Sources */,
 				6981ADD91ADDE3CE0042949B /* ViewController.m in Sources */,
 				6981ADD01ADDE3CE0042949B /* main.m in Sources */,
 			);
