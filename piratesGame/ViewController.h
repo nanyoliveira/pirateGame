@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+//iVars
+@property (nonatomic) CGPoint currentPoint;
+@property (strong, nonatomic) NSArray * tiles;
 
 //IBOutlets
 
