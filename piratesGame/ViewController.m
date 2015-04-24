@@ -37,15 +37,32 @@
 }
 
 - (IBAction)northButtonPressed:(UIButton *)sender {
+    self.currentPoint = CGPointMake(self.currentPoint.x, self.currentPoint.y +1);
+    [self updateButtons];
+    [self updateTile];
+    
 }
 
 - (IBAction)westButtonPressed:(UIButton *)sender {
+    self.currentPoint = CGPointMake(self.currentPoint.x -1, self.currentPoint.y);
+
+    [self updateButtons];
+    [self updateTile];
 }
 
 - (IBAction)southButtonPressed:(UIButton *)sender {
+    self.currentPoint = CGPointMake(self.currentPoint.x, self.currentPoint.y -1);
+    
+    [self updateButtons];
+    [self updateTile];
 }
 
 - (IBAction)eastButtonPressed:(UIButton *)sender {
+    
+    self.currentPoint = CGPointMake(self.currentPoint.x +1, self.currentPoint.y);
+    
+    [self updateButtons];
+    [self updateTile];
 }
 
 
@@ -53,6 +70,7 @@
 {
     Tile * tileModel = [[self.tiles objectAtIndex:self.currentPoint.x] objectAtIndex:self.currentPoint.y ];
     self.storyLabel.text = tileModel.story;
+    self.backgroundImageView.image = tileModel.backgroudImage;
 }
 
 -(void)updateButtons

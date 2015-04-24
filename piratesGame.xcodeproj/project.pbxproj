@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		693574DE1AE9E1D800E15333 /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574D21AE9E1D800E15333 /* one.jpg */; };
+		693574DF1AE9E1D800E15333 /* two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574D31AE9E1D800E15333 /* two.jpg */; };
+		693574E01AE9E1D800E15333 /* three.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574D41AE9E1D800E15333 /* three.jpg */; };
+		693574E11AE9E1D800E15333 /* four.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574D51AE9E1D800E15333 /* four.jpg */; };
+		693574E21AE9E1D800E15333 /* five.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574D61AE9E1D800E15333 /* five.jpg */; };
+		693574E31AE9E1D800E15333 /* six.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574D71AE9E1D800E15333 /* six.jpg */; };
+		693574E41AE9E1D800E15333 /* seven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574D81AE9E1D800E15333 /* seven.jpg */; };
+		693574E51AE9E1D800E15333 /* eight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574D91AE9E1D800E15333 /* eight.jpg */; };
+		693574E61AE9E1D800E15333 /* nine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574DA1AE9E1D800E15333 /* nine.jpg */; };
+		693574E71AE9E1D800E15333 /* ten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574DB1AE9E1D800E15333 /* ten.jpg */; };
+		693574E81AE9E1D800E15333 /* eleven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574DC1AE9E1D800E15333 /* eleven.jpg */; };
+		693574E91AE9E1D800E15333 /* twelve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693574DD1AE9E1D800E15333 /* twelve.jpg */; };
 		6981ADD01ADDE3CE0042949B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6981ADCF1ADDE3CE0042949B /* main.m */; };
 		6981ADD31ADDE3CE0042949B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6981ADD21ADDE3CE0042949B /* AppDelegate.m */; };
 		6981ADD61ADDE3CE0042949B /* piratesGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6981ADD41ADDE3CE0042949B /* piratesGame.xcdatamodeld */; };
@@ -30,6 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		693574D21AE9E1D800E15333 /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one.jpg; sourceTree = "<group>"; };
+		693574D31AE9E1D800E15333 /* two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = two.jpg; sourceTree = "<group>"; };
+		693574D41AE9E1D800E15333 /* three.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = three.jpg; sourceTree = "<group>"; };
+		693574D51AE9E1D800E15333 /* four.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = four.jpg; sourceTree = "<group>"; };
+		693574D61AE9E1D800E15333 /* five.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = five.jpg; sourceTree = "<group>"; };
+		693574D71AE9E1D800E15333 /* six.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = six.jpg; sourceTree = "<group>"; };
+		693574D81AE9E1D800E15333 /* seven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seven.jpg; sourceTree = "<group>"; };
+		693574D91AE9E1D800E15333 /* eight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eight.jpg; sourceTree = "<group>"; };
+		693574DA1AE9E1D800E15333 /* nine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nine.jpg; sourceTree = "<group>"; };
+		693574DB1AE9E1D800E15333 /* ten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ten.jpg; sourceTree = "<group>"; };
+		693574DC1AE9E1D800E15333 /* eleven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eleven.jpg; sourceTree = "<group>"; };
+		693574DD1AE9E1D800E15333 /* twelve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twelve.jpg; sourceTree = "<group>"; };
 		6981ADCA1ADDE3CE0042949B /* piratesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piratesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6981ADCE1ADDE3CE0042949B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6981ADCF1ADDE3CE0042949B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +92,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		693574D11AE9E1BF00E15333 /* background Images */ = {
+			isa = PBXGroup;
+			children = (
+				693574D21AE9E1D800E15333 /* one.jpg */,
+				693574D31AE9E1D800E15333 /* two.jpg */,
+				693574D41AE9E1D800E15333 /* three.jpg */,
+				693574D51AE9E1D800E15333 /* four.jpg */,
+				693574D61AE9E1D800E15333 /* five.jpg */,
+				693574D71AE9E1D800E15333 /* six.jpg */,
+				693574D81AE9E1D800E15333 /* seven.jpg */,
+				693574D91AE9E1D800E15333 /* eight.jpg */,
+				693574DA1AE9E1D800E15333 /* nine.jpg */,
+				693574DB1AE9E1D800E15333 /* ten.jpg */,
+				693574DC1AE9E1D800E15333 /* eleven.jpg */,
+				693574DD1AE9E1D800E15333 /* twelve.jpg */,
+			);
+			name = "background Images";
+			sourceTree = "<group>";
+		};
 		6981ADC11ADDE3CE0042949B = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +137,7 @@
 				6981ADD21ADDE3CE0042949B /* AppDelegate.m */,
 				6981ADD71ADDE3CE0042949B /* ViewController.h */,
 				6981ADD81ADDE3CE0042949B /* ViewController.m */,
+				693574D11AE9E1BF00E15333 /* background Images */,
 				6981ADDA1ADDE3CE0042949B /* Main.storyboard */,
 				6981ADDD1ADDE3CE0042949B /* Images.xcassets */,
 				6981ADDF1ADDE3CE0042949B /* LaunchScreen.xib */,
@@ -229,8 +273,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6981ADDC1ADDE3CE0042949B /* Main.storyboard in Resources */,
+				693574DE1AE9E1D800E15333 /* one.jpg in Resources */,
 				6981ADE11ADDE3CE0042949B /* LaunchScreen.xib in Resources */,
+				693574E31AE9E1D800E15333 /* six.jpg in Resources */,
+				693574E51AE9E1D800E15333 /* eight.jpg in Resources */,
+				693574DF1AE9E1D800E15333 /* two.jpg in Resources */,
+				693574E81AE9E1D800E15333 /* eleven.jpg in Resources */,
 				6981ADDE1ADDE3CE0042949B /* Images.xcassets in Resources */,
+				693574E91AE9E1D800E15333 /* twelve.jpg in Resources */,
+				693574E41AE9E1D800E15333 /* seven.jpg in Resources */,
+				693574E01AE9E1D800E15333 /* three.jpg in Resources */,
+				693574E21AE9E1D800E15333 /* five.jpg in Resources */,
+				693574E71AE9E1D800E15333 /* ten.jpg in Resources */,
+				693574E11AE9E1D800E15333 /* four.jpg in Resources */,
+				693574E61AE9E1D800E15333 /* nine.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +504,7 @@
 				6981ADF21ADDE3CE0042949B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6981ADF31ADDE3CE0042949B /* Build configuration list for PBXNativeTarget "piratesGameTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +513,7 @@
 				6981ADF51ADDE3CE0042949B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

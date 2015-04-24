@@ -14,13 +14,16 @@
 -(NSArray *)tiles
 {
     Tile *tile1 = [[Tile alloc]init];
-    tile1.story = @"story 1";
+    tile1.story = @"1 Captain, we need a fearless leader such as you to undertake a voyage. You must stop the evil pirate Boss before he steals any more plunder. Would you like a blunted sword to get started?";
+    tile1.backgroudImage= [UIImage imageNamed:@"one.jpg"];
     
     Tile *tile2 = [[Tile alloc]init];
-    tile2.story = @"story 2";
+    tile2.story = @"2 You have come across an armory. Would you like to upgrade your armor to steel armor?";
+    tile2.backgroudImage= [UIImage imageNamed:@"two.jpg"];
     
     Tile *tile3 = [[Tile alloc]init];
-    tile3.story = @"story 3";
+    tile3.story = @"3 A mysterious dock appears on the horizon. Should we stop and ask for directions?";
+    tile3.backgroudImage= [UIImage imageNamed:@"three.jpg"];
     
     NSMutableArray *firstColumn = [[NSMutableArray alloc]init ];
     [firstColumn addObject:tile1];
@@ -29,13 +32,16 @@
     
     
     Tile *tile4 = [[Tile alloc]init];
-    tile4.story = @"story 4";
+    tile4.story = @"4 You have found a parrot can be used in your armor slot! Parrots are a great defender and are fiercly loyal to their captain.";
+    tile4.backgroudImage= [UIImage imageNamed:@"four.jpg"];
     
     Tile *tile5 = [[Tile alloc]init];
-    tile5.story = @"story 5";
+    tile5.story = @"5 You have stumbled upon a cache of pirate weapons. Would you like to upgrade to a pistol?";
+    tile5.backgroudImage= [UIImage imageNamed:@"five.jpg"];
     
     Tile *tile6 = [[Tile alloc]init];
-    tile6.story = @"story 6";
+    tile6.story = @"6 You have been captured by pirates and are ordered to walk the plank";
+    tile6.backgroudImage= [UIImage imageNamed:@"six.jpg"];
  
     
     NSMutableArray *secondColumn = [[NSMutableArray alloc]init ];
@@ -45,13 +51,16 @@
     
     
     Tile *tile7 = [[Tile alloc]init];
-    tile7.story = @"story 7";
+    tile7.story = @"7 You sight a pirate battle off the coast";
+    tile7.backgroudImage= [UIImage imageNamed:@"seven.jpg"];
     
     Tile *tile8 = [[Tile alloc]init];
-    tile8.story = @"story 8";
+    tile8.story = @"8 The legend of the deep, the mighty kraken appears";
+    tile8.backgroudImage= [UIImage imageNamed:@"eight.jpg"];
     
     Tile *tile9 = [[Tile alloc]init];
-    tile9.story = @"story 9";
+    tile9.story = @"9 You stumble upon a hidden cave of pirate treasurer";
+    tile9.backgroudImage= [UIImage imageNamed:@"nine.jpg"];
     
     NSMutableArray *thirdColumn = [[NSMutableArray alloc]init ];
     [thirdColumn addObject:tile7];
@@ -60,13 +69,16 @@
     
     
     Tile *tile10 = [[Tile alloc]init];
-    tile10.story = @"story 10";
+    tile10.story = @"10 A group of pirates attempts to board your ship";
+    tile10.backgroudImage= [UIImage imageNamed:@"ten.jpg"];
     
     Tile *tile11 = [[Tile alloc]init];
-    tile11.story = @"story 11";
+    tile11.story = @"11 In the deep of the sea many things live and many things can be found. Will the fortune bring help or ruin?";
+    tile11.backgroudImage= [UIImage imageNamed:@"eleven.jpg"];
     
     Tile *tile12 = [[Tile alloc]init];
-    tile12.story = @"story 12";
+    tile12.story = @"12 Your final faceoff with the fearsome pirate boss";
+    tile12.backgroudImage= [UIImage imageNamed:@"twelve.jpg"];
     
     NSMutableArray *fourthColumn = [[NSMutableArray alloc]init ];
     [fourthColumn addObject:tile10];
