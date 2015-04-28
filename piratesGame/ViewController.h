@@ -42,6 +42,8 @@
 - (IBAction)westButtonPressed:(UIButton *)sender;
 - (IBAction)southButtonPressed:(UIButton *)sender;
 - (IBAction)eastButtonPressed:(UIButton *)sender;
+- (IBAction)resetGameButton:(UIButton *)sender;
+
 
 @end
 

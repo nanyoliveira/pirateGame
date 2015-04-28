@@ -141,7 +141,7 @@
     character.armor =armor;
     
     Weapon * weapon = [[Weapon alloc]init];
-    weapon.name = @"firsts";
+    weapon.name = @"fists";
     weapon.damage = 10 ;
     
     character.weapon = weapon;

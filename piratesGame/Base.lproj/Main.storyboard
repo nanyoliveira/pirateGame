@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -272,8 +273,26 @@
                                     <action selector="westButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="akJ-Og-sxG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Itj-XY-bNq">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Reset Game">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="523" width="96" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="resetGameButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ECV-wV-Rcn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="RoZ-4T-xgd" secondAttribute="bottom" id="NLu-wo-hEg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RoZ-4T-xgd" secondAttribute="trailing" constant="-216" id="f5r-Lx-uFH"/>
+                            <constraint firstItem="RoZ-4T-xgd" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="g29-q8-M5I"/>
+                            <constraint firstItem="RoZ-4T-xgd" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="yu2-0j-lHm"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="PV6-Mm-FVN"/>
@@ -282,6 +301,13 @@
                                 <exclude reference="KSV-X1-eew"/>
                                 <exclude reference="iSO-Ya-UQO"/>
                                 <exclude reference="YsS-nO-hp9"/>
+                                <exclude reference="Itj-XY-bNq"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="f5r-Lx-uFH"/>
+                                <exclude reference="g29-q8-M5I"/>
+                                <exclude reference="yu2-0j-lHm"/>
+                                <exclude reference="NLu-wo-hEg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -292,6 +318,13 @@
                                 <include reference="KSV-X1-eew"/>
                                 <include reference="iSO-Ya-UQO"/>
                                 <include reference="YsS-nO-hp9"/>
+                                <include reference="Itj-XY-bNq"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="f5r-Lx-uFH"/>
+                                <include reference="g29-q8-M5I"/>
+                                <include reference="yu2-0j-lHm"/>
+                                <include reference="NLu-wo-hEg"/>
                             </mask>
                         </variation>
                     </view>

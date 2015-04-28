@@ -90,6 +90,13 @@
     [self updateTile];
 }
 
+- (IBAction)resetGameButton:(UIButton *)sender {
+    self.character = nil;
+    self.boss = nil;
+    [self viewDidLoad];
+    
+}
+
 
 -(void)updateTile
 {
